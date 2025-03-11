@@ -37,7 +37,7 @@ spec:
       volumes:
         - name: credentials
           secret:
-            secretName: scimsession
+            secretName: scimsession-vlad
             items:
               - key: latest
-                path: scimsession
+                path: scimsession-vlad
