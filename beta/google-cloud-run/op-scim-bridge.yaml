@@ -40,4 +40,4 @@ spec:
             secretName: scimsession-vlad
             items:
               - key: latest
-                path: scimsession-vlad
+                path: scimsession
