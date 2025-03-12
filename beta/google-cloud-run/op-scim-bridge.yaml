@@ -1,7 +1,7 @@
 apiVersion: serving.knative.dev/v1
 kind: Service
 metadata:
-  name: op-scim-bridge
+  name: op-scim-bridge-vlad
 spec:
   template:
     metadata:
@@ -37,7 +37,7 @@ spec:
       volumes:
         - name: credentials
           secret:
-            secretName: scimsession-vlad
+            secretName: scimsession
             items:
               - key: latest
                 path: scimsession
